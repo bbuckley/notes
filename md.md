@@ -2,4 +2,4 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 
 links
 
-[link to github guides] https://guides.github.com/features/mastering-markdown/
+[link to github guides](https://guides.github.com/features/mastering-markdown/)
