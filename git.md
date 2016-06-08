@@ -1,6 +1,6 @@
-use a new branch
+1. use a new branch
 * git branch test
 * git branch -d test
 
 
-git checkout -b test
+2. git checkout -b test
