@@ -1,1 +1,1 @@
-put ones notes here
+add notes about each topic
