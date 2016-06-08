@@ -1,8 +1,5 @@
 add note about each topic
 
-*javascript
-* md.md
-* sublime.md(sublime.md)
-
-
-[md.md](md.md)
+* [javascript](javascript.md)
+* [md.md](md.md)
+* [sublime.md](sublime.md)
