@@ -1,1 +1,1 @@
-add notes about each topic
+add note about each topic
