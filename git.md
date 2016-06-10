@@ -7,3 +7,4 @@
 
 
 * git checkout -b test  (all at once)
+* [git-tips](http://git.io/git-tips)
