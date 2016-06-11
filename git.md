@@ -5,9 +5,11 @@
   * (change back to master then...)
   * git branch -d test
 
-
 * git checkout -b test  (all at once)
 * [git-tips](http://git.io/git-tips)
+* 
+*to unstage a file
+ * git reset HEAD filename 
 
-to unstage a file
-* git reset HEAD filename 
+*to rewind history
+ *git reset commit_SHA
