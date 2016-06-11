@@ -8,3 +8,6 @@
 
 * git checkout -b test  (all at once)
 * [git-tips](http://git.io/git-tips)
+
+to unstage a file
+* git reset HEAD filename 
