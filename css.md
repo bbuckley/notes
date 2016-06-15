@@ -1,3 +1,4 @@
+<pre>
 Default CSS Settings
 Most browsers will display the <h1> element with the following default values:
 h1 { 
@@ -53,3 +54,4 @@ h6 {
     margin-right: 0;
     font-weight: bold;
 }
+</pre>
