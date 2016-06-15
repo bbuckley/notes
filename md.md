@@ -14,3 +14,11 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 -->
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
