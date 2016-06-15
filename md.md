@@ -15,6 +15,7 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 Format: ![Alt Text](url)
 -->
 
+github markdown
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
