@@ -14,5 +14,5 @@
  * git reset commit_SHA
  
 * list the files aleady commited 
- *git ls-tree --full-tree -r --name-only HEAD
- *git ls-tree --full-tree -r HEAD
+ * git ls-tree --full-tree -r --name-only HEAD
+ * git ls-tree --full-tree -r HEAD
