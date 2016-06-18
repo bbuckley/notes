@@ -9,6 +9,7 @@
 * [git-tips](http://git.io/git-tips)
 * to unstage a file
  * git reset HEAD filename 
+ * git reset
 
 * to rewind history
  * git reset commit_SHA
