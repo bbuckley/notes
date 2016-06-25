@@ -1,0 +1,29 @@
+#random {
+	margin: 20px;
+}
+
+li {
+  color: #000b29;
+  list-style: none;
+  font-size:1.2em;
+
+}
+
+#sub-section{
+  margin:20px;
+  background-color: #fef2e4;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 5px;
+  
+}
+#sub-section:hover {
+  background-color: #ce5a57;
+  /*border-left: 5px solid white;*/
+  
+  
+}
+.title {
+  font-size:2em;
+  font-family: 'Lobster Two',sans-serif;
+}
