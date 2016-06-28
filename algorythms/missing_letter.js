@@ -9,6 +9,7 @@ function fearNotLetter(str) {
   }
 }
 
+
 console.log(fearNotLetter("abce")); // "d".
 console.log(fearNotLetter("abcdefghjklmno")); // "i"
 console.log(fearNotLetter("bcd")); // undefined.
