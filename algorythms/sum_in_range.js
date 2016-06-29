@@ -7,7 +7,7 @@ function sumAll(arr) {
   for(var i=first; i<=last; i++) {
    a.push(i);
   }
-  
+
   return a.reduce(function(ac, e){
      return ac += e;
   });

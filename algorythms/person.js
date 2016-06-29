@@ -2,7 +2,7 @@
 var Person = function(firstAndLas) {
 
     var firstAndLast = firstAndLas;
-     
+
     this.getFirstName = function(){
       return firstAndLast.split(' ')[0];
     };
