@@ -1,6 +1,5 @@
 
 var Person = function(firstAndLas) {
-
     var firstAndLast = firstAndLas;
 
     this.getFirstName = function(){

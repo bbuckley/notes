@@ -3,8 +3,8 @@ function bouncer(arr) {
   return arr.filter(function(e){
     return e;
   });
-  
-  
+
+
   //return arr;
 }
 
