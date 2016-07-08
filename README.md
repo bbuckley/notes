@@ -1,4 +1,4 @@
-add note about each topic
+add note about each topic --
 
 * [javascript.md](javascript.md)
 * [md.md](md.md)
