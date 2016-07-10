@@ -1,8 +1,12 @@
 
+// Array.prototype.flatten = function(){
+//   return this.reduce(function (flat, toFlatten) {
+//     return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
+//   }, []);
+// };
+
 Array.prototype.flatten = function(){
-  return this.reduce(function (flat, toFlatten) {
-    return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
-  }, []);
+  return flatten(this);
 };
 
 function flatten(arr) {
