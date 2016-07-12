@@ -1,6 +1,44 @@
+Array.prototype.toHashMap = function(){
+        var _hashMap = {};//, getKey = isFunction(key)?key: function(_obj){return _obj[key];};
+        this.forEach(function (obj){
+            _hashMap[obj[0]] = obj[1];
+        });
+        return _hashMap;
+};
 
 function checkCashRegister(price, cash, cid) {
+  cid = cid.toHashMap();
+
   var change;
+
+  // var cidt = 0.01 * cid["PENNY"] +
+  //            0.05 * cid["NICKEL"] +
+  //            0.1 * cid["DIME"] +
+  //            0.1 * cid["DIME"] +
+  //            0.25 * cid["QUARTER"] +
+  //            1 * cid["ONE"] +
+  //            5 * cid["FIVE"] +
+  //            10 * cid["TEN"] +
+  //            20 * cid["TWENTY"] +
+  //            100 * cid["ONE HUNDRED"];
+  //            console.log(cidt, cid["PENNY"] );
+  var cidt = cid["PENNY"] +
+             cid["NICKEL"] +
+             cid["DIME"] +
+             cid["DIME"] +
+             cid["QUARTER"] +
+             cid["ONE"] +
+             cid["FIVE"] +
+             cid["TEN"] +
+             cid["TWENTY"] +
+             cid["ONE HUNDRED"];
+
+  if(cash - price - cidt < 0){
+    return "Insufficient funds";
+  }
+  if(cash - price - cidt == 0){
+    return "Closed";
+  }
 
   change = 888;
   // Here is your change, ma'am.
